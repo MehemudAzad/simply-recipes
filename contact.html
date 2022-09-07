@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact || Starter</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+     <!-- nav  -->
+     <nav class="navbar">
+      <div class="nav-center">
+        <!-- header  -->
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="Simply recipes" />
+          </a>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <!-- links  -->
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">home</a>
+          <a href="about.html" class="nav-link">about</a>
+          <a href="tag-template.html" class="nav-link">tags</a>
+          <a href="recipes.html" class="nav-link">recipes</a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav  -->
+    <!-- main  -->
+    <main class="page">
+      <section class="contact-container">
+        <article >
+          <h1>Want to Get in Touch</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore iste numquam maxime praesentium et quasi recusandae aliquam impedit ipsa reiciendis?</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, quia.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam et dicta ratione, reiciendis similique corrupti?</p>
+        </article>
+        <article>
+          <form class="form contact-form">
+            <!-- single form row  -->
+            <div class="form-row">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" name="name" id="name" class="form-input">
+            </div>
+              <!--end of single form row  -->
+            <!-- single form row  -->
+            <div class="form-row">
+              <label for="name" class="form-label">Your Email</label>
+              <input type="text" name="name" id="name" class="form-input">
+            </div>
+              <!--end of single form row  -->
+            <div class="form-row">
+              <label for="message" class="form-label">Message</label>
+              <textarea name="message" id="message" class="form-textarea"></textarea>
+            </div>
+            <button type="submit" class="btn btn-block">Submit</button>
+          </form>
+        </article>
+         <!-- recipes list  -->
+      <div class="recipes-list">
+        <!-- single recipe  -->
+        <a href="single-recipe.html" class="recipe">
+          <img
+            src="./assets/recipes/recipe-1.jpeg"
+            alt="food"
+            class="img recipe-img"
+          />
+          <h5>carne asada</h5>
+          <p>Prep : 15min | Cook : 5min</p>
+        </a>
+        <a href="single-recipe.html" class="recipe">
+          <img
+            src="./assets/recipes/recipe-2.jpeg"
+            alt="food"
+            class="img recipe-img"
+          />
+          <h5>greek ribs</h5>
+          <p>Prep : 15min | Cook : 5min</p>
+        </a>
+        <a href="single-recipe.html" class="recipe">
+          <img
+            src="./assets/recipes/recipe-3.jpeg"
+            alt="food"
+            class="img recipe-img"
+          />
+      </div>
+      <!-- end of single recipes list -->
+      </section>
+    
+     
+    </main>
+  <!-- footer  -->
+  <footer class="page-footer">
+    <p>
+      &copy; <span id="date">2021</span>
+      <span class="footer-logo">SimplyRecipes</span> built by
+    </p>
+  </footer>
+  <!-- end of footer  -->
+  <script src="./js/app.js"></script>
+    
+  </body>
+</html>
